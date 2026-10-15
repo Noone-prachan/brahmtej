@@ -2,16 +2,13 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #000;
-    /* black background */
     color: #ccc;
-    /* softer text color */
 }
 .navbar {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #111;
-    /* dark gray navbar */
     padding: 15px 0;
 }
 
@@ -29,14 +26,12 @@ body {
 .navbar ul li a {
     text-decoration: none;
     color: white;
-    /* default white text */
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 .navbar ul li a:hover {
     color: #ff0000;
-    /* cyan hover */
 }
 
 .container {
